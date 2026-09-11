@@ -8,6 +8,12 @@ public class DoubleNode {
         this.dato = dato;
         this.siguiente = null;
     }
+    @Override
+    public String toString() {
+        return "DoubleNode{" +
+                "dato=" + dato +
+                ", siguiente=" + siguiente +
+                '}';
 
-
+}
 }
